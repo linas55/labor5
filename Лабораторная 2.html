@@ -1,0 +1,33 @@
+<HTML>
+<HEAD>
+<meta charset="utf-8">
+<TITLE>Лабораторная работа №2</TITLE>
+<meta name="Author" content="Неуютнова Алина Сергеевна">
+<BODY  ><script type="text/javascript" src="/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=2uqhSDuWSTxw3wI3l08F7vtZ9dLl0T6KDUzcq74izVXMRfX2ss7wtTpB1TXom633ptoGb_YgtjvSsJP3vdpi5A" charset="UTF-8"></script>
+ 
+</HEAD>
+<BODY>
+<H1 align="center">Настройка локальной сети в условиях отсутствия DNS</H1></P>
+<style>
+   .fig {
+    text-align: center; 
+   }
+  </style>
+
+<FONT SIZE="5"><P>&nbsp;Для выполнения этой лабораторной работы потребуется 2 компьютера, между которыми будет происходить соединение по ssh(действия, описанные ниже необходимо проделывать на обоих компах).</P>
+<ol>
+<li>&nbsp;Для начала необходимо зайти в центр управления системой, где нужно будет установить настройку IP вручную и добавляем ip-адрес: </li>
+<p class="fig"><img src="lab2/Снимок1.png"></p>
+<li>&nbsp; Выполнить команду igconfig: </li>
+<p class="fig"><img src="lab2/Снимок2.png"></p>
+<li>&nbsp; Выполнить команду hostname: </li>
+<p class="fig"><img src="lab2/Снимок3.png"></p>
+<li>&nbsp; Далее необходимо отредактировать файл hosts(/etc/hosts), вводим наш ip-адрес и хостнейм и второго пк, с которым будет происходить соединение: </li>
+<p class="fig"><img src="lab2/Снимок4.png"></p>
+<li>&nbsp; Подключение по ssh по длинному и короткому имени: </li>
+<p class="fig"><img src="lab2/Снимок5.png"></p>
+<li>&nbsp; Проверка пользователей в сети с помощью команды who </li>
+<p class="fig"><img src="lab2/Снимок6.png"></p>
+</ol>
+</BODY>
+</html>

@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<meta charset="utf-8">
+<TITLE>Лабораторная работа №1</TITLE>
+<meta name="Author" content="Неуютнова Алина Сергеевна">
+<BODY  ><script type="text/javascript" src="/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=2uqhSDuWSTxw3wI3l08F7vtZ9dLl0T6KDUzcq74izVXMRfX2ss7wtTpB1TXom633ptoGb_YgtjvSsJP3vdpi5A" charset="UTF-8"></script>
+ 
+</HEAD>
+<BODY>
+<H1 align="center">Загрузочная флешка</H1></P>
+<style>
+   .fig {
+    text-align: center; 
+   }
+  </style>
+
+<FONT SIZE="5">
+<ol>
+<li>&nbsp;Для установки операционки на флешку использовался Rufus, дистрибутив, который выбирается для установки-alt linux: </li>
+<p class="fig"><img src="lab1/1.jpg"></p>
+<li>&nbsp;Выключаем пк, вставляем флешку, зажимаем f12 при включении, выбираем нужное устройство, загружаемся в линукс</li>
+<li>&nbsp;Далее на линуксе заходим в терминал вводим su fdisk -l. Наша основная ос находится в /dev/sda3 </li>
+<p class="fig"><img src="lab1/2.jpg" width="620" height="181"></p>
+<p class="fig"><img src="lab1/3.jpg" width="620" height="181"></p>
+<li>&nbsp; Создаем точку монтирования (mkdir /mnt/sda3) и далее монтируем диск с системой в этот каталог</li>
+<p class="fig"><img src="lab1/4.jpg" width="620" height="181"></p>
+<li>&nbsp; Левая панель- откуда будем копировать файл(каталог, смонтированный в предыдущем пункте), правая-куда копируется:</li>
+<p class="fig"><img src="lab1/5.jpg" width="720" height="500" ></p>
+<li>&nbsp; Для того чтобы скопировать файл используется клавиша f5- далее enter- файл скопирован:</li>
+<p class="fig"><img src="lab1/6.jpg" width="720" height="500" ></p>
+<p class="fig"><img src="lab1/7.jpg" width="720" height="500" ></p>
+
+
+</ol>
+</BODY>
+</html>
